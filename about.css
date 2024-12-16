@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 400vh;
+}
+
+.base {
+    background-color: white;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.base1 {
+    display: flex;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.base2 {
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(183, 180, 180);
+    padding: 5px;
+}

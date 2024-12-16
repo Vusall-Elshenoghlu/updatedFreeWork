@@ -1,0 +1,158 @@
+@media (max-width: 576px) {
+    a:hover {
+      background-color: rgb(183, 180, 180);
+      padding: 2px;
+    }
+    a {
+      flex-direction: column;
+    }
+    .base2 {
+      display: none;
+    }
+    .foto1 > p {
+      display: none;
+    }
+    .images {
+      width: 100%;
+    }
+  
+    .image {
+      width: 90%;
+    }
+    .image > img {
+      width: 100%;
+    }
+  
+    .photos {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .photo2 > img {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .base1>a{
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    a:hover {
+      background-color: rgb(183, 180, 180);
+      padding: 2px;
+    }
+    a {
+      flex-direction: column;
+    }
+    .base2 {
+      display: none;
+    }
+    .foto1 > p {
+      display: none;
+    }
+  
+    .images {
+      width: 100%;
+    }
+  
+    .image {
+      width: 90%;
+    }
+  
+    .image>img {
+      width: 100%;
+      gap: 20px;
+    }
+  
+    .photos {
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .photo1 {
+      width: 100% !important;
+      height: 100%;
+    }
+  
+    .photo2 > img {
+      width: 100% !important;
+      height: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    .images {
+      width: 100%;
+    }
+    .image {
+      width: 48%;
+    }
+  
+    .image>img {
+      width: 100%;
+    }
+    .photos {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .photo1 {
+      width: 40%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .images {
+      width: 100%;
+    }
+  
+    .image {
+      width: 23%;
+    }
+  
+    .image>img {
+      width: 100%;
+    }
+  
+    .photos {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .photo1 {
+      width: 23%;
+    }
+    .photo2>img {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .images {
+      width: 100%;
+    }
+    .image{
+      width: 23%;
+    }
+    .image > img {
+      width: 100%;
+    }
+  }
